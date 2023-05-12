@@ -1,5 +1,5 @@
-import App from './server';
+import app from './server';
 
-App.listen(3001, () => {
+app.listen(3001, () => {
     console.log('express up on 3001')
 });
